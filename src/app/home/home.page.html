@@ -1,20 +1,10 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<div class="text-center">
+  <h4>Verificador de Senhas</h4>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <input (keyup)="verificarSenha()" type="text" placeholder="Digite sua Senha" [(ngModel)]="senha">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+  <p>Pontuação:{{pontuacao}}</p>
+  <p>{{frase}}</p>
+  <img src="{{imagem}}"alt="">
+
+</div>
