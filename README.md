@@ -6,8 +6,6 @@
  </h2>
 <br>
 <p align="center"> 
-    Descrição:
-    <br>
-    Projeto realizado...
+    Projeto realizado para testar se a senha que o usuario ponhou esta forte ou fraca. Digamos que é para verificar se esta seguro ou não.
 </p
-<hr>
+
